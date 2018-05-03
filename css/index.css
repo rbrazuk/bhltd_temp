@@ -1,0 +1,182 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.shows {
+  width: 100%;
+}
+
+#shows-list {
+  text-align: left;
+  width: 100%;
+  padding-left: 0;
+}
+
+#shows-list li {
+  padding: 0;
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+#shows-list li::after {
+  display: block;
+  content: '';
+  height:1px;
+  background-color: #ccc;
+  width: 100%;
+  margin: 10px auto;
+}
+
+.show-info-container {
+  width: 50%;
+  float:left;
+  display: inline-block;
+  padding-top: 5px;
+}
+
+.buttons-container {
+  width: 50%;
+  display: inline-block;
+  text-align: right;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.shows-list-date {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.shows-list-button {
+  border: 1px solid black;
+  text-align: center;
+  color: #000;
+  width: 100%;
+  padding: 5px 0;
+  font-size: 1em;
+  text-decoration: none;
+  margin: 5px 0;
+  display: inline-block;
+  max-width: 150px;
+}
+
+.shows-list-button a:hover {
+  font-size: 1em;
+  color: #fff;
+}
+
+.shows-list-button:hover {
+  border: 1px solid #4f5d75;
+  background: #4f5d75;
+  color: #fff;
+  text-align: center;
+}
+
+.other-bands {
+  font-size: .9em;
+  font-style: italic;
+  margin: 0;
+}
+
+#shows-table {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#shows-table a {
+  font-size: 1em;
+}
+
+#shows-table td {
+  text-align: left;
+}
+
+#shows-table tr {
+  line-height: 1.5;
+}
+
+.band-name {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.main-image {
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.main-image:hover {
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.main-links a {
+  text-decoration: none;
+  color: #4f5d75;
+  font-size: 1.5em;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.main-links a:hover {
+  color: #B08B71;
+}
+
+/* ----- media queries ----- */
+
+@media screen and (min-width : 768px) {
+  .main-image {width: 33%;}
+
+  a {font-size: 1.2em;}
+
+  .show-info-container {
+    width: 70%;
+  }
+
+  .buttons-container {
+    width: 30%;
+  }
+
+  .show-info-container div {
+    display: inline;
+    width: 33%;
+    float: left;
+  }
+  .shows-list-button {
+    display: inline;
+    width: 40%;
+    float: right;
+    margin-right: 10px;
+  }
+  .shows {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  #shows-list li {
+    padding-top: 10px;
+  }
+
+  .main-links {
+    display: inline;
+    margin: 0 10px;
+  }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    .main-image {width: 80%;}
+    a {font-size: 2.8em;}
+    .band-name {font-size: 3em;}
+}
