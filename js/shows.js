@@ -192,23 +192,3 @@ $(document).ready(function() {
   }
 
 });
-
-// $(document).ready(function() {
-//   if(json == null) {
-//     $("#shows-table").append("<tr>Something went wrong</tr>");
-//   } else {
-//     for (var i = 0; i < json.length; i++) {
-//       $("#shows-table").append(
-//         `
-//           <tr>
-//           <td>${getReadableDate(json[i].date)}</td>
-//           <td>${json[i].venue.city}, ${json[i].venue.state}</td>
-//           <td>${json[i].venue.name}</td>
-//           <td><a href="${json[i].ticketLink}"><div class="show-button">tickets</div></a></td>
-//           <td><a href="${json[i].eventLink}"><div class="show-button">rsvp</div></a></td>
-//         `
-//       )
-//     }
-//   }
-//
-// });
