@@ -63,7 +63,13 @@
   float: right;
 }
 
-.shows-list-button a:hover {
+.other-bands {
+  font-size: .75em;
+  font-style: italic;
+  margin: 0;
+}
+
+/*.shows-list-button a:hover {
   font-size: 1em;
   color: #fff;
 }
@@ -73,10 +79,4 @@
   background: #4f5d75;
   color: #fff;
   text-align: center;
-}
-
-.other-bands {
-  font-size: .75em;
-  font-style: italic;
-  margin: 0;
-}
+}*/
