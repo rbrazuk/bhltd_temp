@@ -3,9 +3,16 @@
   font-size: 4em;
 }
 
+.contact-icons a,
+.contact-icons a:visited,
+.contact-icons a:active
+ {
+  color: #000;
+}
+
 .main-image {
   width: 80%;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .main-links a {
