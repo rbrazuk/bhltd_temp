@@ -74,7 +74,9 @@ var json = [
 			"state": "IN"
 		},
 		"otherBands": [
-			"TBA"
+			"jodi",
+      "Options",
+      "V.V. Lightbody"
 		]
 	},
   {

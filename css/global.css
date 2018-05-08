@@ -5,6 +5,7 @@
 header {
   text-align: center;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 main {
@@ -19,6 +20,10 @@ footer {
   margin: 0 auto 30px auto;
   position: fixed;
   bottom: 0;
+}
+
+.active {
+  border-bottom: 2px solid #910d0d;
 }
 
 .contact-icons i {
@@ -59,12 +64,12 @@ footer {
   display: inline;
 }
 
-.nav-links a {
+.nav-link {
   text-decoration: none;
   font-size: 3em;
   margin: 0 15px;
   font-weight: bold;
-  color: #910d0d
+  color: #910d0d;
 }
 
 .nav-link a:active {

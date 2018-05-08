@@ -1,0 +1,26 @@
+.releases {
+  width: 100%;
+}
+
+.release {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+.release-image {
+  width: 80%;
+}
+
+.release-name {
+  font-weight: bold;
+}
+
+.shadow {
+  /*-webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  */
+  box-shadow:         3px 3px 5px 6px #ccc;
+}
+
+.release p {
+  margin-bottom: 10px 0;
+}
