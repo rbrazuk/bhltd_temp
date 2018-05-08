@@ -1,6 +1,5 @@
 var images = [
   "rip.jpg",
-  "rip2.jpg",
   "ty_hamms.jpg",
   "pinball.jpg"
 ];

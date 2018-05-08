@@ -4,13 +4,37 @@
 
 header {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 main {
   text-align: center;
   width: 100%;
-  height: 100vh;
+  margin-bottom: 150px;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto 30px auto;
+  position: fixed;
+  bottom: 0;
+}
+
+.contact-icons i {
+  margin: 0 20px;
+  font-size: 3.5em;
+  background-color: #000;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.contact-icons a,
+.contact-icons a:visited,
+.contact-icons a:active
+ {
+  color: #fff;
 }
 
 .band-name {

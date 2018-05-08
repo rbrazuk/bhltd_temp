@@ -35,6 +35,10 @@
   margin: 10px auto;
 }
 
+#shows-list li:last-child::after {
+  height: 0;
+}
+
 .row:after {
     content: "";
     display: table;
