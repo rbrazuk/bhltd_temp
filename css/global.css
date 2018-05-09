@@ -27,6 +27,11 @@ footer {
   bottom: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #7da6e8;
+}
+
 .header-img {
   width: 50%;
   margin-bottom: 20px;
