@@ -2,10 +2,15 @@
   font-family: 'Roboto', sans-serif;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 header {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
+  width: 100%;
 }
 
 main {
@@ -22,13 +27,18 @@ footer {
   bottom: 0;
 }
 
+.header-img {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
 .active {
   border-bottom: 2px solid #910d0d;
 }
 
 .contact-icons i {
   margin: 0 20px;
-  font-size: 3.5em;
+  font-size: 3.6rem;
   background-color: #000;
   border: 1px solid black;
   border-radius: 50%;
@@ -40,14 +50,6 @@ footer {
 .contact-icons a:active
  {
   color: #fff;
-}
-
-.band-name {
-  font-family: 'Homemade Apple', cursive;
-  font-size: 5em;
-  margin-bottom: 0;
-  text-decoration: none;
-  color: #000;
 }
 
 .band-name:visited, .band-name:active {
@@ -66,7 +68,7 @@ footer {
 
 .nav-link {
   text-decoration: none;
-  font-size: 3em;
+  font-size: 4.5rem;
   margin: 0 15px;
   font-weight: bold;
   color: #910d0d;

@@ -1,37 +1,29 @@
+.release {
+  margin-bottom: 30px;
+}
+
+.release a {
+  text-decoration: none;
+  color: #7da6e8;
+}
+
+.release div {
+  padding-bottom: 15px;
+}
+
 .releases {
   width: 100%;
-  font-size: 2em;
-}
-
-.release {
-
-  margin: 30px auto;
-}
-
-.release::after {
-  display: block;
-  content: '';
-  height:1px;
-  background-color: #ccc;
-  width: 80%;
-  margin: 10px auto;
+  text-align: center;
+  font-size: 3.6rem;
 }
 
 .release-image {
   width: 80%;
+  margin: 0 auto;
+  padding-bottom: 15px;
 }
 
-.release-name {
-  font-weight: bold;
-  font-size: 1.5em;
-}
 
-.shadow {
-  /*-webkit-box-shadow: 3px 3px 5px 6px #ccc;
-  -moz-box-shadow:    3px 3px 5px 6px #ccc;  */
-  box-shadow:         3px 3px 5px 6px #ccc;
-}
+.release-detail {
 
-.release p {
-  margin-bottom: 10px 0;
 }
