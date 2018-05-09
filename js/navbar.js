@@ -9,4 +9,6 @@ $(document).ready(function() {
   } else if (currentPage.endsWith("contact.html")) {
     $("#contact-link").addClass("active")
   }
+
+
 });

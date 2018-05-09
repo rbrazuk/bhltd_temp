@@ -1,10 +1,20 @@
 .releases {
   width: 100%;
+  font-size: 2em;
 }
 
 .release {
-  font-size: 1.5em;
-  margin-bottom: 30px;
+
+  margin: 30px auto;
+}
+
+.release::after {
+  display: block;
+  content: '';
+  height:1px;
+  background-color: #ccc;
+  width: 80%;
+  margin: 10px auto;
 }
 
 .release-image {
@@ -13,6 +23,7 @@
 
 .release-name {
   font-weight: bold;
+  font-size: 1.5em;
 }
 
 .shadow {
