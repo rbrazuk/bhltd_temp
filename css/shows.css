@@ -70,7 +70,7 @@
 }
 
 @media
-only screen and (max-resolution: 100dpi), (min-width: 768px) {
+only screen and (max-resolution: 100dpi) and (min-width: 768px) {
   .shows {
     width: 80%;
     font-size: 2rem;
