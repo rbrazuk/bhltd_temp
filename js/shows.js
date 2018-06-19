@@ -1,152 +1,140 @@
 var json = [
   {
-		"date": "20180531",
-    "ticketLink": "http://google.com",
-    "eventLink": "http:facebook.com",
-		"venue": {
-			"name": "Everybody Hits",
-			"city": "Philadelphia",
-			"state": "PA"
-		},
-		"otherBands": [
-			"TBA"
-		]
-	},
-  {
 		"date": "20180622",
-    "ticketLink": "http://google.com",
-    "eventLink": "http:facebook.com",
+    "ticketLink": null,
+    "eventLink": "https://www.facebook.com/events/833794656821517/",
 		"venue": {
 			"name": "Spirit",
 			"city": "Pittsburgh",
 			"state": "PA"
 		},
 		"otherBands": [
-			"TBA"
+			"Curtail",
+      "Old Game"
 		]
 	},
   {
 		"date": "20180623",
-    "ticketLink": "http://google.com",
-    "eventLink": "http:facebook.com",
+    "ticketLink": null,
+    "eventLink": "https://www.facebook.com/events/210709219709430/",
 		"venue": {
 			"name": "It's a Kling Thing",
 			"city": "Akron",
 			"state": "OH"
 		},
 		"otherBands": [
-			"TBA"
+			"Alomar",
+      "Willow Lacey Hawks",
+      "Wes Meadows"
 		]
 	},
   {
 		"date": "20180624",
-    "ticketLink": "http://google.com",
-    "eventLink": "http:facebook.com",
+    "ticketLink": null,
+    "eventLink": "https://www.facebook.com/events/240826203350931/",
 		"venue": {
-			"name": "Shakespeare's",
+			"name": "Shakespeares Lower Level",
 			"city": "Kalamazoo",
 			"state": "MI"
 		},
 		"otherBands": [
-			"TBA"
+			"Guppy"
 		]
 	},
   {
 		"date": "20180625",
-    "ticketLink": "http://google.com",
-    "eventLink": "http:facebook.com",
+    "ticketLink": null,
+    "eventLink": "https://www.facebook.com/events/205871456688496/",
 		"venue": {
 			"name": "Empty Bottle",
 			"city": "Chicago",
 			"state": "IL"
 		},
 		"otherBands": [
-			"TBA"
-		]
-	},
-  {
-		"date": "20180626",
-    "ticketLink": "http://google.com",
-    "eventLink": "http:facebook.com",
-		"venue": {
-			"name": "TBA",
-			"city": "Bloomington",
-			"state": "IN"
-		},
-		"otherBands": [
-			"jodi",
-      "Options",
+			"Options",
+      "Jodi",
       "V.V. Lightbody"
 		]
 	},
   {
-		"date": "20180627",
-    "ticketLink": "http://google.com",
-    "eventLink": "http:facebook.com",
+		"date": "20180626",
+    "ticketLink": null,
+    "eventLink": "https://www.facebook.com/events/261947751045900/",
 		"venue": {
-			"name": "TBA",
+			"name": "Hoosier Dome",
+			"city": "Indianapolis",
+			"state": "IN"
+		},
+		"otherBands": [
+			"Summerbruise",
+      "Cody Almond and the Moving Company",
+      "Drama Moth",
+      "Fear Not Ourselves Alone"
+		]
+	},
+  {
+		"date": "20180627",
+    "ticketLink": null,
+    "eventLink": "https://www.facebook.com/events/843817625826335/",
+		"venue": {
+			"name": "Two Boots Nashville",
 			"city": "Nashville",
 			"state": "TN"
 		},
 		"otherBands": [
-			"TBA"
+			"Mama Would Be Proud",
+      "Shoe",
+      "Rain Jacket"
 		]
 	},
   {
 		"date": "20180628",
-    "ticketLink": "http://google.com",
-    "eventLink": "http:facebook.com",
+    "ticketLink": "https://chattpalace.myshopify.com/products/georges-free-beer-give-away",
+    "eventLink": "https://www.facebook.com/events/2084562034891436/",
 		"venue": {
-			"name": "TBA",
-			"city": "Atlanta",
-			"state": "GA"
+			"name": "Palace Theatre",
+			"city": "Chattanooga",
+			"state": "TN"
 		},
 		"otherBands": [
-			"TBA"
+			"Psychic Dungeon",
+      "Thanks Cagoule",
+      "Sinai Vessel"
 		]
 	},
   {
 		"date": "20180629",
-    "ticketLink": "http://google.com",
-    "eventLink": "http:facebook.com",
+    "ticketLink": null,
+    "eventLink": "https://www.facebook.com/events/453411428437876/",
 		"venue": {
-			"name": "TBA",
-			"city": "TBA",
+			"name": "Heaven's Inn",
+			"city": "Raleigh",
 			"state": "NC"
 		},
 		"otherBands": [
-			"TBA"
+			"Noah Cross",
+      "Julian Waits"
 		]
 	},
   {
 		"date": "20180630",
-    "ticketLink": "http://google.com",
-    "eventLink": "http:facebook.com",
+    "ticketLink": null,
+    "eventLink": "https://www.facebook.com/events/1675238215917522/",
 		"venue": {
-			"name": "TBA",
+			"name": "Flora",
 			"city": "Richmond",
 			"state": "VA"
 		},
 		"otherBands": [
-			"TBA"
-		]
-	},
-  {
-		"date": "20180701",
-    "ticketLink": "http://google.com",
-    "eventLink": "http:facebook.com",
-		"venue": {
-			"name": "TBA",
-			"city": "Washington",
-			"state": "DC"
-		},
-		"otherBands": [
-			"TBA"
+			"Doll Baby",
+      "Gull",
+      "No Thank You",
+      "Cheer Up"
 		]
 	},
   {
 		"date": "20180707",
-    "ticketLink": "http://google.com",
+    "ticketLink": null,
     "eventLink": "http:facebook.com",
 		"venue": {
 			"name": "Asbury Park Brewery",
@@ -188,16 +176,16 @@ $(document).ready(function() {
         <li>
           <div class="row">
             <div class="show-info-container">
-              <div class="shows-list-date">${getReadableDate(json[i].date)}</div>
-              <div>${json[i].venue.city}, ${json[i].venue.state}</div>
-              <div>
-                ${json[i].venue.name}
-                <p class="other-bands">w/ ${getBandsAsString(json[i].otherBands)}</p>
-              </div>
+              
+              <div class="shows-list-date show-info-div">${getReadableDate(json[i].date)}</div>
+              <div class="venue-city show-info-div">${json[i].venue.city}, ${json[i].venue.state}</div>
+              <div class="show-info-div">${json[i].venue.name}</div>
+
+              <div class="other-bands">w/ ${getBandsAsString(json[i].otherBands)}</div>
             </div>
 
             <div class="buttons-container">
-              <a class="shows-list-button" href="${json[i].ticketLink}"><div>tickets</div></a>
+              <a class="shows-list-button" href="${json[i].ticketLink == null ? json[i].eventLink : json[i].ticketLink}"><div>tickets</div></a>
               <a class="shows-list-button" href="${json[i].eventLink}"><div>rsvp</div></a>
             </div>
           </div>
@@ -207,3 +195,30 @@ $(document).ready(function() {
   }
 
 });
+
+// $(document).ready(function() {
+//   for (var i = 0; i < json.length; i++) {
+//     $("#shows-list").append(
+//       `
+//         <li>
+//           <div class="row">
+//             <div class="show-info-container">
+//               <div class="shows-list-date">${getReadableDate(json[i].date)}</div>
+//               <div class="venue-city">${json[i].venue.city}, ${json[i].venue.state}</div>
+//               <div>
+//                 ${json[i].venue.name}
+//                 <p class="other-bands">w/ ${getBandsAsString(json[i].otherBands)}</p>
+//               </div>
+//             </div>
+//
+//             <div class="buttons-container">
+//               <a class="shows-list-button" href="${json[i].ticketLink == null ? json[i].eventLink : json[i].ticketLink}"><div>tickets</div></a>
+//               <a class="shows-list-button" href="${json[i].eventLink}"><div>rsvp</div></a>
+//             </div>
+//           </div>
+//         </li>
+//       `
+//     );
+//   }
+//
+// });

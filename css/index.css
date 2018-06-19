@@ -1,5 +1,3 @@
-
-
 .main-image {
   width: 80%;
   margin-bottom: 30px;
@@ -19,43 +17,18 @@
 
 /* ----- media queries ----- */
 
-
-
-/*@media screen and (min-width : 768px) and (-webkit-min-device-pixel-ratio: 2) {
-  .main-image {width: 33%;}
-
-  a {font-size: 1.2em;}
-
-  .show-info-container {
-    width: 70%;
-  }
-
-  .buttons-container {
-    width: 30%;
-  }
-
-  .show-info-container div {
-    display: inline;
+@media
+only screen and (max-resolution: 100dpi) {
+  .main-image {
     width: 33%;
-    float: left;
+    margin-bottom: 30px;
   }
-  .shows-list-button {
-    display: inline;
-    width: 40%;
-    float: right;
-    margin-right: 10px;
-  }
-  .shows {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+}
 
-  #shows-list li {
-    padding-top: 10px;
-  }
 
-  .main-links {
-    display: inline;
-    margin: 0 10px;
+/*@media screen and (min-width : 768px) {
+  .main-image {
+    width: 33%;
+    margin-bottom: 30px;
   }
 }*/

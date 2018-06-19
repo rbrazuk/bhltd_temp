@@ -8,8 +8,8 @@ html {
 
 header {
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   width: 100%;
 }
 
@@ -33,7 +33,7 @@ a {
 }
 
 .header-img {
-  width: 50%;
+  width: 40%;
   margin-bottom: 20px;
 }
 
@@ -42,7 +42,7 @@ a {
 }
 
 .contact-icons i {
-  margin: 0 20px;
+  margin: 0 15px;
   font-size: 3.6rem;
   background-color: #000;
   border: 1px solid black;
@@ -82,3 +82,57 @@ a {
 .nav-link a:active {
   text-decoration: underline;
 }
+
+@media
+only screen and (max-resolution: 100dpi) {
+  .header-img {
+    width: 15%;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    font-size: 2.5rem;
+    margin: 0 15px;
+    font-weight: bold;
+    color: #910d0d;
+  }
+
+  nav {
+    margin-bottom: 0;
+  }
+
+  footer {
+    position: relative;
+    bottom: unset;
+  }
+
+  .contact-icons i {
+  font-size: 2rem;
+    padding: 8px;
+  }
+
+  main {
+    margin-bottom: 0;
+  }
+}
+
+/*@media
+only screen and (min-width : 768px),
+only screen and (max-resolution: 100dpi) {
+  .header-img {
+    width: 15%;
+
+  }
+
+  .nav-link {
+    text-decoration: none;
+    font-size: 2.5rem;
+    margin: 0 15px;
+    font-weight: bold;
+    color: #910d0d;
+  }
+
+  nav {
+    margin-bottom: 0;
+  }
+}*/

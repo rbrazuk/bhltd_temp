@@ -27,3 +27,7 @@
 .release-detail {
 
 }
+
+.release-list li {
+  list-style: none;
+}
