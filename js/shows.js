@@ -134,8 +134,8 @@ var json = [
 	},
   {
 		"date": "20180707",
-    "ticketLink": null,
-    "eventLink": "http:facebook.com",
+    "ticketLink": "https://www.brownpapertickets.com/event/3375879",
+    "eventLink": "https://www.facebook.com/events/176893922841062/",
 		"venue": {
 			"name": "Asbury Park Brewery",
 			"city": "Asbury Park",
@@ -176,7 +176,7 @@ $(document).ready(function() {
         <li>
           <div class="row">
             <div class="show-info-container">
-              
+
               <div class="shows-list-date show-info-div">${getReadableDate(json[i].date)}</div>
               <div class="venue-city show-info-div">${json[i].venue.city}, ${json[i].venue.state}</div>
               <div class="show-info-div">${json[i].venue.name}</div>
@@ -185,8 +185,8 @@ $(document).ready(function() {
             </div>
 
             <div class="buttons-container">
-              <a class="shows-list-button" href="${json[i].ticketLink == null ? json[i].eventLink : json[i].ticketLink}"><div>tickets</div></a>
-              <a class="shows-list-button" href="${json[i].eventLink}"><div>rsvp</div></a>
+              <a class="shows-list-button" href="${json[i].ticketLink == null ? json[i].eventLink : json[i].ticketLink}" target="_blank"><div>tickets</div></a>
+              <a class="shows-list-button" href="${json[i].eventLink}" target="_blank"><div>rsvp</div></a>
             </div>
           </div>
         </li>

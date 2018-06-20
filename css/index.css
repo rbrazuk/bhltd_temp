@@ -3,18 +3,6 @@
   margin-bottom: 30px;
 }
 
-.main-links a {
-  text-decoration: none;
-  color: #4f5d75;
-  font-size: 1.5em;
-  -webkit-transition: color 0.3s;
-  transition: color 0.3s;
-}
-
-.main-links a:hover {
-  color: #B08B71;
-}
-
 @media only screen and (min-width: 700px) {
   .main-image {
     width: 33%;
