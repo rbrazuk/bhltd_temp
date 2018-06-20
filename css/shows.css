@@ -1,6 +1,6 @@
 .shows {
   width: 95%;
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin: 0 auto;
 }
 
@@ -14,8 +14,6 @@
   float: left;
   padding: 10px 0;
 }
-
-
 
 #shows-list {
   text-align: left;
@@ -43,9 +41,9 @@
 }
 
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .shows-list-date {
@@ -58,7 +56,6 @@
   text-align: center;
   color: #000;
   padding: 10px 0;
-
   text-decoration: none;
   margin: 0 auto 10px auto;
   display: block;

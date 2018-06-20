@@ -83,6 +83,11 @@ a {
   text-decoration: underline;
 }
 
+.footer-copyright {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
 @media only screen and (min-width: 700px) {
   .header-img {
     width: 15%;
@@ -105,6 +110,8 @@ a {
     position: relative;
     bottom: unset;
   }
+
+
 }
 
 

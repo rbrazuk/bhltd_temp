@@ -15,21 +15,9 @@
   color: #B08B71;
 }
 
-/* ----- media queries ----- */
-
-
-
 @media only screen and (min-width: 700px) {
   .main-image {
     width: 33%;
     margin-bottom: 30px;
   }
 }
-
-
-/*@media screen and (min-width : 768px) {
-  .main-image {
-    width: 33%;
-    margin-bottom: 30px;
-  }
-}*/
