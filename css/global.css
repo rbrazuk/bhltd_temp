@@ -83,11 +83,7 @@ a {
   text-decoration: underline;
 }
 
-@media only screen and (min-width: 768) {
-
-}
-
-@media only screen and (max-resolution: 100dpi) and (min-width: 768px) {
+@media only screen and (min-resolution: 150dpi) and (min-width: 768px) {
   .header-img {
     width: 15%;
   }
@@ -116,6 +112,49 @@ a {
 
   main {
     margin-bottom: 0;
+  }
+
+  .contact-icons i:hover {
+    background-color: #cccccc;
+    border-color: #cccccc;
+  }
+}
+
+@media only screen and (max-resolution: 100dpi) and (min-width: 768px) {
+
+  .header-img {
+    width: 15%;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    font-size: 2.5rem;
+    margin: 0 15px;
+    font-weight: bold;
+    color: #910d0d;
+  }
+
+  nav {
+    margin-bottom: 0;
+  }
+
+  footer {
+    position: relative;
+    bottom: unset;
+  }
+
+  .contact-icons i {
+  font-size: 2rem;
+    padding: 8px;
+  }
+
+  main {
+    margin-bottom: 0;
+  }
+
+  .contact-icons i:hover {
+    background-color: #cccccc;
+    border-color: #cccccc;
   }
 }
 

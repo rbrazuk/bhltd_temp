@@ -69,6 +69,49 @@
   margin: 0;
 }
 
+@media only screen and (min-resolution: 150dpi) and (min-width: 768px) {
+  .shows {
+    width: 80%;
+    font-size: 2rem;
+    margin: 0 auto;
+  }
+
+  .other-bands {
+    font-size: 1.8rem;
+  }
+
+  .shows-list-button {
+    display: inline;
+    width: 25%;
+    margin: 10px;
+  }
+
+  .shows-list-button a:hover {
+    font-size: 1em;
+    color: #fff;
+  }
+
+  .shows-list-button:hover {
+    border: 1px solid #4f5d75;
+    background: #4f5d75;
+    color: #fff;
+    text-align: center;
+  }
+
+  .show-info-div {
+    display: inline;
+    margin-right: 10px;
+  }
+
+  .shows-list-date {
+    font-weight: bold;
+  }
+
+  .other-bands {
+    margin-top: 10px;
+  }
+}
+
 @media
 only screen and (max-resolution: 100dpi) and (min-width: 768px) {
   .shows {
