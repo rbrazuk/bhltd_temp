@@ -17,15 +17,9 @@
 
 /* ----- media queries ----- */
 
-@media only screen and (min-resolution: 150dpi) and (min-width: 768px) {
-  .main-image {
-    width: 33%;
-    margin-bottom: 30px;
-  }
-}
 
-@media
-only screen and (max-resolution: 100dpi) {
+
+@media only screen and (min-width: 700px) {
   .main-image {
     width: 33%;
     margin-bottom: 30px;

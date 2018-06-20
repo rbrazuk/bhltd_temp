@@ -1,6 +1,6 @@
 .shows {
   width: 95%;
-  font-size: 3.6rem;
+  font-size: 2rem;
   margin: 0 auto;
 }
 
@@ -12,7 +12,10 @@
   display: inline;
   width: 50%;
   float: left;
+  padding: 10px 0;
 }
+
+
 
 #shows-list {
   text-align: left;
@@ -57,19 +60,19 @@
   padding: 10px 0;
 
   text-decoration: none;
-  margin: 10px auto;
+  margin: 0 auto 10px auto;
   display: block;
   width: 90%;
   float: right;
 }
 
 .other-bands {
-  font-size: 3.6rem;
+  font-size: 1.5rem;
   font-style: italic;
   margin: 0;
 }
 
-@media only screen and (min-resolution: 150dpi) and (min-width: 768px) {
+@media only screen and (min-width: 700px) {
   .shows {
     width: 80%;
     font-size: 2rem;
@@ -111,72 +114,3 @@
     margin-top: 10px;
   }
 }
-
-@media
-only screen and (max-resolution: 100dpi) and (min-width: 768px) {
-  .shows {
-    width: 80%;
-    font-size: 2rem;
-    margin: 0 auto;
-  }
-
-  .other-bands {
-    font-size: 1.8rem;
-  }
-
-  .shows-list-button {
-    display: inline;
-    width: 25%;
-    margin: 10px;
-  }
-
-  .shows-list-button a:hover {
-    font-size: 1em;
-    color: #fff;
-  }
-
-  .shows-list-button:hover {
-    border: 1px solid #4f5d75;
-    background: #4f5d75;
-    color: #fff;
-    text-align: center;
-  }
-
-  .show-info-div {
-    display: inline;
-    margin-right: 10px;
-  }
-
-  .shows-list-date {
-    font-weight: bold;
-  }
-
-  .other-bands {
-    margin-top: 10px;
-  }
-}
-
-/*@media screen and (min-width : 768px) {
-
-
-  .other-bands {
-    font-size: 1.8rem;
-  }
-
-  .shows-list-button {
-    display: inline;
-    width: 25%;
-  }
-} */
-
-/*.shows-list-button a:hover {
-  font-size: 1em;
-  color: #fff;
-}
-
-.shows-list-button:hover {
-  border: 1px solid #4f5d75;
-  background: #4f5d75;
-  color: #fff;
-  text-align: center;
-}*/

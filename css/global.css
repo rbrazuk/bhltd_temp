@@ -16,7 +16,7 @@ header {
 main {
   text-align: center;
   width: 100%;
-  margin-bottom: 150px;
+  margin-bottom: 75px;
 }
 
 footer {
@@ -43,11 +43,11 @@ a {
 
 .contact-icons i {
   margin: 0 15px;
-  font-size: 3.6rem;
+  font-size: 2rem;
   background-color: #000;
   border: 1px solid black;
   border-radius: 50%;
-  padding: 20px;
+  padding: 10px;
 }
 
 .contact-icons a,
@@ -73,7 +73,7 @@ a {
 
 .nav-link {
   text-decoration: none;
-  font-size: 4.5rem;
+  font-size: 2.5rem;
   margin: 0 15px;
   font-weight: bold;
   color: #910d0d;
@@ -83,7 +83,32 @@ a {
   text-decoration: underline;
 }
 
-@media only screen and (min-resolution: 150dpi) and (min-width: 768px) {
+@media only screen and (min-width: 700px) {
+  .header-img {
+    width: 15%;
+  }
+
+  .nav-link:hover {
+    color: #ccc;
+  }
+
+  .contact-icons i:hover {
+    background-color: #cccccc;
+    border-color: #cccccc;
+  }
+
+  main {
+    margin-bottom: 0;
+  }
+
+  footer {
+    position: relative;
+    bottom: unset;
+  }
+}
+
+
+/*@media only screen and (min-resolution: 150dpi) and (min-width: 768px) {
   .header-img {
     width: 15%;
   }
@@ -97,6 +122,10 @@ a {
   }
 
   .nav-link:hover {
+    color: #ccc;
+  }
+
+  .nav-link a:active:hover {
     color: #ccc;
   }
 
@@ -126,6 +155,10 @@ a {
 
 @media only screen and (max-resolution: 100dpi) and (min-width: 768px) {
 
+  body {
+    background-color: green;
+  }
+
   .header-img {
     width: 15%;
   }
@@ -151,6 +184,10 @@ a {
     bottom: unset;
   }
 
+  .contact-icons {
+    margin: 0 auto;
+  }
+
   .contact-icons i {
   font-size: 2rem;
     padding: 8px;
@@ -164,4 +201,5 @@ a {
     background-color: #cccccc;
     border-color: #cccccc;
   }
-}
+
+}*/
