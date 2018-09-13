@@ -1,1 +1,44 @@
-
+[
+  {
+		"date": "20180622",
+    "ticketLink": null,
+    "eventLink": "https://www.facebook.com/events/833794656821517/",
+		"venue": {
+			"name": "Spirit",
+			"city": "Pittsburgh",
+			"state": "PA"
+		},
+		"otherBands": [
+			"Curtail",
+      "Old Game"
+		]
+	},
+  {
+		"date": "20180623",
+    "ticketLink": null,
+    "eventLink": "https://www.facebook.com/events/210709219709430/",
+		"venue": {
+			"name": "It's a Kling Thing",
+			"city": "Akron",
+			"state": "OH"
+		},
+		"otherBands": [
+			"Alomar",
+      "Willow Lacey Hawks",
+      "Wes Meadows"
+		]
+	},
+  {
+		"date": "20180624",
+    "ticketLink": null,
+    "eventLink": "https://www.facebook.com/events/240826203350931/",
+		"venue": {
+			"name": "Shakespeares Lower Level",
+			"city": "Kalamazoo",
+			"state": "MI"
+		},
+		"otherBands": [
+			"Guppy"
+		]
+	}
+]
